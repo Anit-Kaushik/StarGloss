@@ -4,15 +4,19 @@ import img2 from './../assets/images/img2.png'
 import img3 from './../assets/images/img3.png'
 import img4 from './../assets/images/img4.png'
 import img5 from './../assets/images/img5.png'
-import video1 from './../assets/Videos/video1.mp4'
-import video2 from './../assets/Videos/video2.mp4'
-import video3 from './../assets/Videos/video3.mp4'
-import video4 from './../assets/Videos/video4.mp4'
-import video5 from './../assets/Videos/video5.mp4'
+
+
+
+const video1="https://res.cloudinary.com/didb5rj4t/video/upload/v1775395952/video4_jlmm5l.mp4"
+const video2="https://res.cloudinary.com/didb5rj4t/video/upload/v1775395916/video5_afwitx.mp4"
+const video3="https://res.cloudinary.com/didb5rj4t/video/upload/v1775395945/video3_wswk5a.mp4"
+const video4="https://res.cloudinary.com/didb5rj4t/video/upload/v1775395952/video4_jlmm5l.mp4"
+const video5="https://res.cloudinary.com/didb5rj4t/video/upload/v1775395916/video5_afwitx.mp4"
 
 function ProductionHouse() {
 
   const videoRefs = useRef([]);
+ 
 
   const productionHouseList = [
     { id: 1, image: img1, video: video1 },
